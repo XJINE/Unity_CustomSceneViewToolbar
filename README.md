@@ -9,5 +9,5 @@ Add extra toolbar into SceneView.
 You can use Package Manager or import it directly.
 
 ```
-https://github.com/XJINE/Unity_CustomSceneViewToolbar.git?path=Assets/TimeScaleEditor
+https://github.com/XJINE/Unity_CustomSceneViewToolbar.git?path=Assets/Packages/CustomSceneViewToolbar
 ```
