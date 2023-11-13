@@ -15,7 +15,9 @@ public static class CustomSceneViewToolbar
 
     private static void OnGUI(SceneView sceneView)
     {
+        Handles.BeginGUI();
         GUILayout.BeginArea(new Rect(0, 0, Screen.width / EditorGUIUtility.pixelsPerPoint, Screen.height / EditorGUIUtility.pixelsPerPoint));
+
         if (OnGUIActions.Count != 0)
         {
             GUILayout.BeginHorizontal("toolbar");
@@ -26,6 +28,12 @@ public static class CustomSceneViewToolbar
             GUILayout.FlexibleSpace();
             GUILayout.EndHorizontal();
         }
+        if (OnGUIActions.Count == 0)
+        {
+            GUILayout.FlexibleSpace();
+        }
+
         GUILayout.EndArea();
+        Handles.EndGUI();
     }
 }

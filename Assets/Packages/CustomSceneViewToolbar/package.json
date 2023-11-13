@@ -1,7 +1,7 @@
 {
     "name"       : "com.xjine.custom_sceneview_toolbar",
     "displayName": "Custom SceneView Toolbar", 
-    "version"    : "1.0.0",
+    "version"    : "1.0.1",
     "unity"      : "2022.3",
     "description": "Add custom toolbar into SceneView.",
     "author"     :
